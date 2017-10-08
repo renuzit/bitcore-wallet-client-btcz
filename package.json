@@ -13,8 +13,8 @@
       "/home/hellomoto/copay"
     ]
   ],
-  "_from": "bitcore-wallet-client@6.2.1",
-  "_id": "bitcore-wallet-client@6.2.1",
+  "_from": "bitcore-wallet-client-btcz@1.0.0",
+  "_id": "bitcore-wallet-client-btcz@1.0.0",
   "_inCache": true,
   "_location": "/bitcore-wallet-client",
   "_nodeVersion": "8.5.0",
@@ -29,12 +29,12 @@
   "_npmVersion": "5.3.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "bitcore-wallet-client@6.2.1",
+    "raw": "bitcore-wallet-client@1.0.0",
     "scope": null,
     "escapedName": "bitcore-wallet-client",
     "name": "bitcore-wallet-client",
-    "rawSpec": "6.2.1",
-    "spec": "6.2.1",
+    "rawSpec": "1.0.0",
+    "spec": "1.0.0",
     "type": "version"
   },
   "_requiredBy": [
@@ -43,7 +43,7 @@
   "_resolved": "https://registry.npmjs.org/bitcore-wallet-client/-/bitcore-wallet-client-6.2.1.tgz",
   "_shasum": "2a141c1564d808a57bcba6ae45908fa34360c732",
   "_shrinkwrap": null,
-  "_spec": "bitcore-wallet-client@6.2.1",
+  "_spec": "bitcore-wallet-client@1.0.0",
   "_where": "/home/hellomoto/copay",
   "author": {
     "name": "BitPay Inc"
@@ -119,7 +119,7 @@
   "optionalDependencies": {},
   "readme": "ERROR: No README data found!",
   "repository": {
-    "url": "git+ssh://git@github.com/bitpay/bitcore-wallet-client.git",
+    "url": "git+ssh://git@github.com/anthony19114/bitcore-wallet-client-btcz.git",
     "type": "git"
   },
   "scripts": {
@@ -129,5 +129,5 @@
     "start": "node app.js",
     "test": "mocha"
   },
-  "version": "6.2.1"
+  "version": "1.0.0"
 }
