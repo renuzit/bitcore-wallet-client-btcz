@@ -15,10 +15,9 @@ var tingodb = require('tingodb')({
 
 var log = require('../lib/log');
 
-var Bitcore = require('bitcore-lib');
+var Bitcore = require('bitcore-lib-btcz');
 var Bitcore_ = {
   btcz: Bitcore,
-  bch: require('bitcore-lib-cash'),
 };
 
 
@@ -1207,7 +1206,7 @@ describe('client API', function() {
       });
     });
 
- 
+
 
     it('should check balance in a 1-1 ', function(done) {
       helpers.createAndJoinWallet(clients, 1, 1, function() {
@@ -5208,7 +5207,7 @@ describe('client API', function() {
         };
         helpers.createAndJoinWallet(clients, 1, 1, function() {
           blockchainExplorerMock.setUtxo(address, 123, 1);
-          clients[0].buildTxFromPrivateKey('5KjBgBiadWGhjWmLN1v4kcEZqWSZFqzgv7cSUuZNJg4tD82c4xp', addr[1], { 
+          clients[0].buildTxFromPrivateKey('5KjBgBiadWGhjWmLN1v4kcEZqWSZFqzgv7cSUuZNJg4tD82c4xp', addr[1], {
             coin: coin
           }, function(err, tx) {
             should.not.exist(err);
